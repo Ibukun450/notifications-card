@@ -1,0 +1,190 @@
+body {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main-sec {
+    width: 700px;
+    height: 625px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.first-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first-sec h3 {
+    color: hsl(225, 20%, 19%);
+    font-size: 23px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.first-sec .span-elem {
+    margin-left: 2px;
+    position: relative;
+    top: -6px;
+    padding: 3px 10px;
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.first-sec button {
+    color: hsl(219, 12%, 42%);
+    background-color: transparent;
+    border: none;
+}
+
+.first-sec button, .sect-uplo .upp p, .sect-uplo .low p {
+    color: hsl(219, 12%, 42%);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.first-sec button:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.sect-uplo .low p {
+    margin-top: 4px;
+}
+
+.sec-sec {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    padding-left: 15px;
+}
+
+.sec-spec {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-sec img, .sec-sec .img-div {
+    width: 50px;
+    margin-right: 18px;
+}
+
+.sect-uplo p {
+    margin: 0;
+    padding: 0;
+}
+
+.sect-uplo .upp span:nth-child(1),
+.chess-elem {
+    color: hsl(225, 20%, 19%);
+    font-weight: 800;
+}
+
+#chess-elem {
+    color: hsl(219, 85%, 26%);
+}
+
+.sect-uplo .upp span:nth-child(2) {
+    color: hsl(219, 14%, 63%);
+    font-weight: 800;
+}
+
+.name {
+    color: hsl(225, 20%, 19%);
+    font-weight: 800;
+}
+
+.upp .name:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+#namer {
+    color: hsl(225, 20%, 19%);
+    font-weight: 800;
+}
+
+.upp #namer:hover {
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.name2 {
+    color: hsl(219, 14%, 63%);
+    font-weight: 800;
+}
+
+p{
+    color: hsl(219, 12%, 42%);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.low p {
+    color: hsl(219, 14%, 63%);
+}
+
+.low2 p {
+    margin: 0;
+    padding: 0;
+}
+
+.upp .upper p {
+    margin-bottom: 0;
+    padding: 0;
+} 
+
+#spec-para {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+#five-days-p {
+    margin-bottom: 5px;
+}
+
+.textarea {
+    margin: 0;
+    padding: 0;
+    width: 490px;
+    border: 1px solid hsl(0, 0%, 89%);
+    border-radius: 5px;
+}
+
+.textarea:hover {
+    background-color: hsl(205, 33%, 90%);
+    border-color: hsl(205, 33%, 90%);
+}
+
+#textarea-p {
+    margin: 15px;
+}
+
+#textdiv2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.red-circle {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 8px;
+}

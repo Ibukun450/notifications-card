@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+<body>
+  <div class="main-sec">
+    <div class="first-sec">
+      <h3>Notifications <span class="span-elem" id="span-elem">3</span></h3>
+      <button id="mark-as-read">Mark all as read</button>      
+    </div>
+
+    <div class="sec-sec" id="org">
+      <div class="image-div"><img src="assets/images/avatar-mark-webber.webp" alt=""></div>
+      <div class="sect-uplo">
+        <div class="upp" id="upp">
+          <p><span id="namer">Mark Webber</span> reacted to your recent post <span id="namer">My first tournament today!</span></p>
+        </div>
+        <div class="low">
+          <p class="spec-p" style="color: hsl(219, 14%, 63%);">1m ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-sec" id="org2">
+      <div class="image-div"><img src="assets/images/avatar-angela-gray.webp" alt=""></div>
+      <div class="sect-uplo" id="sect-uplo">
+        <div class="upp">
+          <p><span id="namer">Angela Gray</span> followed you</p>
+        </div>
+        <div class="low">
+          <p class="spec-p" style="color: hsl(219, 14%, 63%);">5m ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-sec" id="org3">
+      <div class="image-div"><img src="assets/images/avatar-jacob-thompson.webp" alt=""></div>
+      <div class="sect-uplo" id="sect-uplo">
+        <div class="upp">
+          <p><span id="namer">Jacob Thompson</span> has joined your group <span class="name chess-elem" id="chess-elem" style="cursor: pointer;">Chess Club</span></p>
+        </div>
+        <div class="low">
+          <p class="spec-p" style="color: hsl(219, 14%, 63%);">1 day ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-sec">
+      <div class="image-div img-div"><img src="assets/images/avatar-rizky-hasanuddin.webp" alt=""></div>
+      <div class="sec-spec">
+        <div class="upp upper">
+          <p id="spec-para"><span class="name rh">Rizky Hasanuddin</span> sent you a private message</p>
+        </div>
+        <div class="low low2">
+          <p id="five-days-p">5 days ago</p>
+        </div>
+        <div class="textarea">
+          <p id="textarea-p">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-sec">
+      <div class="image-div"><img src="assets/images/avatar-kimberly-smith.webp" alt=""></div>
+      <div id="overall-container"  style="display: flex; justify-content: space-between;">
+        <div class="textdiv">
+          <div class="upp">
+            <p id="textdiv2"><span class="name">Kimberly Smith</span> commented on your picture</p>
+          </div>
+          <div class="low">
+            <p>1 week ago</p>
+          </div>
+        </div>
+        <div class="image-div2" >
+          <img src="assets/images/image-chess.webp" style="margin-left: 110px; cursor: pointer;">
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="sec-sec">
+      <div class="image-div"><img src="assets/images/avatar-nathan-peterson.webp" alt=""></div>
+      <div id="textdiv">
+        <div class="upp">
+          <p id="textdiv2"><span class="name">Nathan Peterson</span> reacted to your recent post <span class="name2">5 end-game strategies to increase your win rate</span></p>
+        </div>
+        <div class="low" style="margin: 0;">
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="sec-sec">
+      <div class="image-div"><img src="assets/images/avatar-anna-kim.webp" alt=""></div>
+      <div class="textdiv">
+        <div class="upp">
+          <p id="textdiv2"><span class="name">Anna Kim</span> left the group</p>
+        </div>
+        <div class="low">
+          <p>2 weeks ago</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
